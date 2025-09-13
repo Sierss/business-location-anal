@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node node_modules/@sveltejs/kit/svelte-kit.js dev",
-    "build": "node node_modules/@sveltejs/kit/svelte-kit.js build",
-    "preview": "node node_modules/@sveltejs/kit/svelte-kit.js preview",
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --check . && eslint .",
